@@ -1,10 +1,4 @@
-# Stats Preview Card Component built using React and Vanilla CSS
-
-- I designed the above given challenge predominantly for desktop and mobile viewports, therefore the responsivity might not be that efficient at sizes inbetween.
-- I had a dilemma going forward with the mobile design whether to have bigger dimensions and therefore making it scrollable or making everything smaller therefore the size of the card will be smaller but it isn't required to scroll.
-- Finally, I had learnt that I should always design mobile first.
-
-The deployed site can be viewed [here](https://stats-preview-raaj-s.netlify.app/)
+# Three Column Preview Card Component built using React and Vanilla CSS
 
 # Getting Started with Create React App
 
