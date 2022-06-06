@@ -1,0 +1,81 @@
+/* mobile styling */
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* height: 100vh; */
+  padding: 75px 0px;
+  background-color: hsl(0, 0%, 95%);
+}
+
+.card{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 320px;
+}
+
+.card > * {
+  padding: 40px;
+}
+
+.sedans{
+  background-color: hsl(31, 77%, 52%);
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.suvs{
+  background-color: hsl(184, 100%, 22%);
+}
+
+.luxury{
+  background-color: hsl(179, 100%, 13%);
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+
+p{
+  font-size: 15px;
+  line-height: 1.6;
+  color: hsl(0, 0%, 95%);
+}
+
+h1{
+  color: hsl(0, 0%, 95%);
+}
+
+.learn-more-btn{
+  border-style: solid;
+  border-color: white;
+  padding: 10px 20px;
+  border-radius: 25px;
+  background-color: white;
+}
+
+.sedans .learn-more-btn{
+  color: hsl(31, 77%, 52%);
+}
+
+.suvs .learn-more-btn{
+  color: hsl(184, 100%, 22%);
+}
+
+.luxury .learn-more-btn{
+  color: hsl(179, 100%, 13%);
+}
+
+.learn-more-btn:hover{
+  color: white;
+  background-color: transparent;
+  cursor: pointer;
+  transition-duration: 150ms;
+  transition: ease;
+}
