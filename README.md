@@ -1,5 +1,7 @@
 # Three Column Preview Card Component built using React and Vanilla CSS
 
+The deployed site can be viewed [here](https://three-column-preview-raaj-s.netlify.app/)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
